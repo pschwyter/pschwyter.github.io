@@ -14,13 +14,40 @@
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
 }
 
+/* New background image! */
 header {
 	background-image: url('../img/color_explosion_1.jpg');
 }
 
+/* Change padding in header for portrait */
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 140px;
+        padding-top: 110px;
         padding-bottom: 200px;
     }
 }
+
+/* Change navbar color */
+.navbar-default.navbar-shrink {
+    padding: 10px 0;
+    background-color: #ff1a1a;
+}
+
+.btn-xl {
+	background-color: #ff1a1a;
+	border-color: #ff1a1a;
+}
+
+.btn-xl:hover {
+	background-color: #e51717;
+	border-color: #e51717;
+}
+
+
+
+
+
+
+
+
+
