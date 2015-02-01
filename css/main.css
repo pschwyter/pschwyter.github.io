@@ -46,6 +46,8 @@ section#contact .section-heading {
     background-color: #ff1a1a;
 }
 
+
+/* Change "find out more" button colours */
 .btn-xl {
 	background-color: #ff1a1a;
 	border-color: #ff1a1a;
@@ -56,7 +58,66 @@ section#contact .section-heading {
 	border-color: #e51717;
 }
 
+/* Skill bars */
 
+.skill-bar {
+  height: 3.5em;
+}
+.progress-bar p {
+  float: left;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 2px;
+}
+
+.rails-bg {
+  background-color: #d27d87;
+}
+
+.rails {
+ background-color: #B42738;
+}
+
+.javascript-bg {
+  background-color: #f4e583;
+}
+
+.javascript {
+  background-color: #F0DB4F;
+}
+
+.html-bg {
+  background-color: #f38f66; 
+}
+
+.html {
+ background-color: #EE5F25;
+}
+
+.ajax-bg {
+  background-color: #b7c0ff;
+}
+
+.ajax {
+  background-color: #7081ff;
+}
+
+
+.postgresql-bg {
+  background-color: #99bcdb;
+}
+
+.postgresql {
+  background-color: #337ab7;
+}
+
+.git-bg {
+  background-color: #f69684;
+}
+
+.git {
+  background-color: #F05033;
+}
 
 
 
