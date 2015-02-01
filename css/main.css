@@ -136,6 +136,13 @@ section#contact .section-heading {
     }
 }
 
+.contact-info {
+  color: white;
+  padding-top: 100px;
+  line-height: 3em;
+  font-size: 2em;
+}
+
 /* Change navbar color */
 .navbar-default.navbar-shrink {
     padding: 10px 0;
