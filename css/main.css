@@ -154,25 +154,27 @@ section#contact .section-heading {
 
 /* Change navbar color */
 .navbar-default {
-    /*border-color: transparent;*/
-    background-color: #B42738;
+    border-color: transparent;
+    /*background-color: #B42738;*/
+    text-shadow: 1px 2px 2px rgba(0,0,0, 1);
 }
 
 .navbar-default.navbar-shrink {
     padding: 10px 0;
     background-color: #B42738;
+    text-shadow: none;
 }
 
 
 /* Change "find out more" button colours */
 .btn-xl {
-	background-color: #fed136;
-	border-color: #fed136;
+	background-color: #fec503;
+	border-color: #fec503;
 }
 
 .btn-xl:hover {
-	background-color: #fec503;
-	border-color: #fec503;
+	background-color: #f6a304;
+	border-color: #f6a304;
 }
 
 /* Skill bars */
