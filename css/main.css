@@ -35,8 +35,8 @@
   background-image: url('../img/waterloo1.jpg');
   background-color: white;
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   /*margin: 1em auto;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,8 +53,8 @@
   background-image: url('../img/berkeley_campus.jpg');
   background-color: white;
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   /*margin: 1em auto;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -71,8 +71,8 @@
   background-image: url('../img/mf_scene_1.png');
   background-color: white;
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   /*margin: 1em auto;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -89,8 +89,8 @@
   background-image: url('../img/toronto-skyline.jpg');
   background-color: white;
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   /*margin: 1em auto;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,8 +107,8 @@
   background-image: url('../img/bitmakerlabs.png');
   background-color: white;
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   margin: 1em auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@
 
 /* New background images! */
 header {
-	background-image: url('../img/color_explosion_1.jpg');
+	background-image: url('../img/wood_background_kasper_nymann.jpg');
 	background-size: cover;
 }
 section#contact{
@@ -138,22 +138,26 @@ section#contact .section-heading {
   padding-bottom: 100px;
 }
 
-/* Change padding in header for portrait */
-@media(min-width:768px) {
-    header .intro-text {
-        padding-top: 110px;
-        padding-bottom: 200px;
-    }
+.phone, .email {
+  font-size: 1em;
+  background: 10px solid black;
 }
+
+/* Change padding in header for portrait */
 
 .contact-info {
   color: white;
-  line-height: 3em;
+  line-height: 2.5em;
   font-size: 2.3em;
   padding-bottom: 180px;
 }
 
 /* Change navbar color */
+.navbar-default {
+    /*border-color: transparent;*/
+    background-color: #B42738;
+}
+
 .navbar-default.navbar-shrink {
     padding: 10px 0;
     background-color: #B42738;
@@ -162,13 +166,13 @@ section#contact .section-heading {
 
 /* Change "find out more" button colours */
 .btn-xl {
-	background-color: #ff1a1a;
-	border-color: #ff1a1a;
+	background-color: #fed136;
+	border-color: #fed136;
 }
 
 .btn-xl:hover {
-	background-color: #e51717;
-	border-color: #e51717;
+	background-color: #fec503;
+	border-color: #fec503;
 }
 
 /* Skill bars */
@@ -231,10 +235,37 @@ section#contact .section-heading {
 .git {
   background-color: #F05033;
 }
+/* MEDIA STUFF */
 
+.contact-info {
+  font-size: 1.4em;
+}
 
+@media(min-width:480px) {
+.contact-info {
+  font-size: 2em;
+}
 
+}
 
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 110px;
+        padding-bottom: 200px;
+    }
+    .contact-info {
+      font-size: 2em;
+    }
+
+}
+
+@media(min-width:1200px) {
+
+    .contact-info {
+      font-size: 2.6em;
+    }
+
+}
 
 
 
