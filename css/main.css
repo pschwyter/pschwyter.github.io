@@ -156,13 +156,13 @@ section#contact .section-heading {
 /* Change navbar color */
 .navbar-default {
     border-color: transparent;
-    /*background-color: #B42738;*/
+    /*background-color: #222;*/
     text-shadow: 1px 2px 2px rgba(0,0,0, 1);
 }
 
 .navbar-default.navbar-shrink {
     padding: 10px 0;
-    background-color: #B42738;
+    background-color: #222;
     text-shadow: none;
 }
 
