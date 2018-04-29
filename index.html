@@ -295,17 +295,20 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6 text-center">
-                  <div class="contact-info">
-                    <h2 class="section-heading">Let's Chat!</h2>
-                    <div class="email">me@philschwyter.com</div>
-                  </div>
+                <div class="contact-info text-center">
+                    <h2 class="section-heading">Contact me</h2>
+                    <div class="email text-muted">me@philschwyter.com</div>
+                    <div class="col-md-12">
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/pschwyter_"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://github.com/pschwyter"><i class="fa fa-github-alt"></i></a>
+                            </li>
+                            <li><a href="http://ca.linkedin.com/in/philippeschwyter"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-2"></div>
-                
             </div>
         </div>
     </section>
@@ -314,21 +317,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Philippe Schwyter</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/pschwyter_"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="https://github.com/pschwyter"><i class="fa fa-github-alt"></i></a>
-                        </li>
-                        <li><a href="http://ca.linkedin.com/in/philippeschwyter"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
+                    <p class="copyright">Copyright &copy; Philippe Schwyter - <span id="current-year"></span></p>
                 </div>
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        document.getElementById('current-year').innerText = (new Date()).getFullYear();
+    </script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

@@ -125,11 +125,13 @@ header {
 	background-image: url('../img/wood_desk_luke_chesser.jpg');
 	background-size: cover;
 }
-section#contact{
-	background-image: url('../img/sean_gladwell_above_blue_typewriter.jpg')
-}
 
 /* Re-styling the contact section */
+
+section#contact {
+  background-color: #fff;
+}
+
 section#contact .section-heading {
     color: #fed136;
 }
@@ -150,13 +152,11 @@ section#contact .section-heading {
   line-height: 2.5em;
   font-size: 2.3em;
   padding-bottom: 180px;
-  text-shadow: 1px 2px 2px rgba(0,0,0, 1);
 }
 
 /* Change navbar color */
 .navbar-default {
     border-color: transparent;
-    /*background-color: #222;*/
     text-shadow: 1px 2px 2px rgba(0,0,0, 1);
 }
 
@@ -269,7 +269,3 @@ section#contact .section-heading {
     }
 
 }
-
-
-
-
